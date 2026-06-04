@@ -1,5 +1,5 @@
 /**
- * DESIGN SYSTEM: Neo-Oceanic Minimalism (新海洋极简主义)
+ * DESIGN SYSTEM: Neo-Oceanic Minimalism (Neo-Oceanic Minimalism)
  * Silkpay Contact Page
  */
 
@@ -100,7 +100,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900 text-sm uppercase tracking-wider mb-1">Email Sales</h4>
-                    <p className="text-slate-600 text-sm">sales@silkpay.com</p>
+                    <p className="text-slate-600 text-sm">sales@silkpay.today</p>
                     <p className="text-slate-400 text-xs mt-1">We typically reply within 2 hours.</p>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900 text-sm uppercase tracking-wider mb-1">Developer Support</h4>
-                    <p className="text-slate-600 text-sm">dev-support@silkpay.com</p>
+                    <p className="text-slate-600 text-sm">dev-support@silkpay.today</p>
                     <p className="text-slate-400 text-xs mt-1">Technical questions & integration help.</p>
                   </div>
                 </div>

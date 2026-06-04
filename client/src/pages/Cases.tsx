@@ -1,5 +1,5 @@
 /**
- * DESIGN SYSTEM: Neo-Oceanic Minimalism (新海洋极简主义)
+ * DESIGN SYSTEM: Neo-Oceanic Minimalism (Neo-Oceanic Minimalism)
  * Silkpay Cases Page
  */
 

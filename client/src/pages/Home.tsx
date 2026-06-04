@@ -1,5 +1,5 @@
 /**
- * DESIGN SYSTEM: Neo-Oceanic Minimalism (新海洋极简主义)
+ * DESIGN SYSTEM: Neo-Oceanic Minimalism (Neo-Oceanic Minimalism)
  * Silkpay Homepage - replicating buzipay.com content and layout
  */
 
@@ -33,37 +33,37 @@ export default function Home() {
       title: "AI SaaS Solutions",
       description: "Provide complete subscription management, seamless checkout flows, and tailored B2B revenue optimization tools to grow your MRR.",
       icon: Cpu,
-      badge: "AI SaaS解决方案",
+      badge: "AI SaaS",
     },
     {
       title: "Mobile Applications",
       description: "Support in-app subscriptions, recurring billing, and single purchases. Scale your mobile user growth and global revenue easily.",
       icon: Smartphone,
-      badge: "移动应用",
+      badge: "Mobile Apps",
     },
     {
       title: "Desktop Software",
       description: "Flexible one-time or recurring billing options. Out-of-the-box integration with mainstream license key authorization systems.",
       icon: Monitor,
-      badge: "桌面软件",
+      badge: "Desktop Software",
     },
     {
       title: "Interactive Games",
       description: "Direct-to-player checkout. Accept local payments globally and seamlessly integrate with your existing game store or client.",
       icon: Gamepad2,
-      badge: "互动游戏",
+      badge: "Interactive Games",
     },
     {
       title: "Online Education & Courses",
       description: "Host courses on self-built platforms or systems. Process global card payments with extremely low operational and gateway fees.",
       icon: GraduationCap,
-      badge: "在线教育与课程",
+      badge: "Online Education",
     },
     {
       title: "Digital Products",
       description: "Sell e-books, design assets, audio/video media files, and more. A fully-managed, incredibly easy-to-use checkout platform.",
       icon: FileText,
-      badge: "数字产品",
+      badge: "Digital Products",
     },
   ];
 
@@ -71,7 +71,7 @@ export default function Home() {
   const coreValues = [
     {
       title: "Accelerate Business Growth",
-      subtitle: "加速业务增长",
+      subtitle: "Accelerate Growth",
       description: "Boost your customer lifetime value and recurring revenue with powerful up-sell tools, flexible multi-tier subscription plans, and dynamic trial models. Silkpay is built to maximize your global conversion rates.",
       details: [
         "Dynamic smart checkout with local payment methods",
@@ -83,7 +83,7 @@ export default function Home() {
     },
     {
       title: "One-Stop Tax Compliance (MoR Mode)",
-      subtitle: "一站式税务合规",
+      subtitle: "Tax Compliance",
       description: "Operate as your global Merchant of Record (MoR). We take full legal, financial, and tax liability for sales in over 100+ countries. Sell globally without setting up complex local entities.",
       details: [
         "Automatic calculations, filing, and remittance of VAT/GST/Sales Tax",
@@ -95,7 +95,7 @@ export default function Home() {
     },
     {
       title: "Global Risk & Fraud Management",
-      subtitle: "全球风险管控",
+      subtitle: "Risk Management",
       description: "Rest easy with advanced built-in fraud prevention systems, proactive chargeback dispute management, and complete regulatory compliance. We keep your funds and customer data completely secure.",
       details: [
         "Advanced machine-learning anti-fraud engine",

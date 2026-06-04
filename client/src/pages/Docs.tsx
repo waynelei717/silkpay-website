@@ -1,5 +1,5 @@
 /**
- * DESIGN SYSTEM: Neo-Oceanic Minimalism (新海洋极简主义)
+ * DESIGN SYSTEM: Neo-Oceanic Minimalism (Neo-Oceanic Minimalism)
  * Silkpay Documentation Page - showcasing the robust API endpoints
  */
 
@@ -38,7 +38,7 @@ export default function Docs() {
   // API reference content
   const apiEndpoints = {
     payin: {
-      title: "Pay-in (收单) API",
+      title: "Pay-in API",
       desc: "Process standard card checkouts, create dynamic payment intents, securely tokenize cards, or accept cryptocurrencies globally.",
       endpoints: [
         {
@@ -97,7 +97,7 @@ export default function Docs() {
       ]
     },
     subscription: {
-      title: "Subscription (订阅) API",
+      title: "Subscription API",
       desc: "Manage flexible subscription plans, trial tiers, automatic renewals, and churn recovery smart-retries.",
       endpoints: [
         {
@@ -125,7 +125,7 @@ export default function Docs() {
       ]
     },
     payout: {
-      title: "Pay-out (代付) API",
+      title: "Pay-out API",
       desc: "Execute mass payments or individual payouts to bank accounts and digital wallets worldwide.",
       endpoints: [
         {
@@ -202,21 +202,21 @@ export default function Docs() {
                     onClick={() => setActiveTab("payin")}
                     className={`justify-start font-semibold rounded-xl ${activeTab === "payin" ? "text-sky-600 bg-sky-50/50" : "text-slate-600 hover:text-sky-600 hover:bg-sky-50/30"}`}
                   >
-                    <Code className="w-4 h-4 mr-2" /> Pay-in (收单)
+                    <Code className="w-4 h-4 mr-2" /> Pay-in
                   </Button>
                   <Button 
                     variant="ghost" 
                     onClick={() => setActiveTab("subscription")}
                     className={`justify-start font-semibold rounded-xl ${activeTab === "subscription" ? "text-sky-600 bg-sky-50/50" : "text-slate-600 hover:text-sky-600 hover:bg-sky-50/30"}`}
                   >
-                    <Code className="w-4 h-4 mr-2" /> Subscription (订阅)
+                    <Code className="w-4 h-4 mr-2" /> Subscription
                   </Button>
                   <Button 
                     variant="ghost" 
                     onClick={() => setActiveTab("payout")}
                     className={`justify-start font-semibold rounded-xl ${activeTab === "payout" ? "text-sky-600 bg-sky-50/50" : "text-slate-600 hover:text-sky-600 hover:bg-sky-50/30"}`}
                   >
-                    <Code className="w-4 h-4 mr-2" /> Pay-out (代付)
+                    <Code className="w-4 h-4 mr-2" /> Pay-out
                   </Button>
                 </div>
               </div>
