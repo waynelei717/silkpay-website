@@ -20,7 +20,8 @@ import {
   Shield, 
   CheckCircle,
   Copy,
-  Check
+  Check,
+  Download
 } from "lucide-react";
 import { toast } from "sonner";
 
@@ -218,6 +219,22 @@ export default function Docs() {
                   >
                     <Code className="w-4 h-4 mr-2" /> Pay-out
                   </Button>
+                </div>
+              </div>
+
+              <div className="text-left space-y-2">
+                <h3 className="text-xs font-bold uppercase tracking-widest text-slate-400">Downloads</h3>
+                <div className="flex flex-col gap-1">
+                  <a href="/openapi-merchant-integration.pdf" download="openapi-merchant-integration.pdf" className="w-full">
+                    <Button variant="ghost" className="w-full justify-start text-slate-600 hover:text-sky-600 hover:bg-sky-50/30 font-semibold rounded-xl text-left text-sm whitespace-normal h-auto py-2.5">
+                      <Download className="w-4 h-4 mr-2 shrink-0" /> Merchant Integration Guide (PDF)
+                    </Button>
+                  </a>
+                  <a href="/charge_create.pdf" download="charge_create.pdf" className="w-full">
+                    <Button variant="ghost" className="w-full justify-start text-slate-600 hover:text-sky-600 hover:bg-sky-50/30 font-semibold rounded-xl text-left text-sm whitespace-normal h-auto py-2.5">
+                      <Download className="w-4 h-4 mr-2 shrink-0" /> Charge API Guide (PDF)
+                    </Button>
+                  </a>
                 </div>
               </div>
 
