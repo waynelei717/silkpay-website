@@ -15,16 +15,19 @@ import {
   ArrowRight, 
   TrendingUp, 
   Globe, 
-  Cpu, 
-  Smartphone, 
-  Monitor, 
-  Gamepad2, 
-  GraduationCap, 
-  FileText,
   Lock,
   Percent,
   Sparkles
 } from "lucide-react";
+import {
+  IconGradients,
+  AiSaaSIcon,
+  MobileAppsIcon,
+  DesktopSoftwareIcon,
+  InteractiveGamesIcon,
+  OnlineEducationIcon,
+  DigitalProductsIcon
+} from "@/components/CustomBusinessIcons";
 
 export default function Home() {
   // Service groups cards content
@@ -32,37 +35,37 @@ export default function Home() {
     {
       title: "AI SaaS Solutions",
       description: "Provide complete subscription management, seamless checkout flows, and tailored B2B revenue optimization tools to grow your MRR.",
-      icon: Cpu,
+      icon: AiSaaSIcon,
       badge: "AI SaaS",
     },
     {
       title: "Mobile Applications",
       description: "Support in-app subscriptions, recurring billing, and single purchases. Scale your mobile user growth and global revenue easily.",
-      icon: Smartphone,
+      icon: MobileAppsIcon,
       badge: "Mobile Apps",
     },
     {
       title: "Desktop Software",
       description: "Flexible one-time or recurring billing options. Out-of-the-box integration with mainstream license key authorization systems.",
-      icon: Monitor,
+      icon: DesktopSoftwareIcon,
       badge: "Desktop Software",
     },
     {
       title: "Interactive Games",
       description: "Direct-to-player checkout. Accept local payments globally and seamlessly integrate with your existing game store or client.",
-      icon: Gamepad2,
+      icon: InteractiveGamesIcon,
       badge: "Interactive Games",
     },
     {
       title: "Online Education & Courses",
       description: "Host courses on self-built platforms or systems. Process global card payments with extremely low operational and gateway fees.",
-      icon: GraduationCap,
+      icon: OnlineEducationIcon,
       badge: "Online Education",
     },
     {
       title: "Digital Products",
       description: "Sell e-books, design assets, audio/video media files, and more. A fully-managed, incredibly easy-to-use checkout platform.",
-      icon: FileText,
+      icon: DigitalProductsIcon,
       badge: "Digital Products",
     },
   ];
@@ -109,6 +112,9 @@ export default function Home() {
 
   return (
     <Layout>
+      {/* Inject SVG Gradients for Custom Icons */}
+      <IconGradients />
+
       {/* Background Glows */}
       <div className="mesh-glow top-20 left-10" />
       <div className="mesh-glow top-[1200px] right-10" />
@@ -230,8 +236,8 @@ export default function Home() {
                 <Card key={index} className="glacier-card group overflow-hidden border-0">
                   <CardContent className="p-8 flex flex-col items-start text-left h-full">
                     {/* Icon container */}
-                    <div className="w-12 h-12 rounded-xl bg-sky-50 flex items-center justify-center text-sky-600 mb-6 group-hover:bg-sky-500 group-hover:text-white transition-colors duration-300">
-                      <IconComponent className="w-6 h-6" />
+                    <div className="w-16 h-16 rounded-2xl bg-sky-50/50 flex items-center justify-center mb-6 group-hover:bg-sky-100/30 group-hover:scale-105 transition-all duration-300">
+                      <IconComponent className="w-14 h-14" />
                     </div>
 
                     {/* Chinese Translation Sub-badge */}
